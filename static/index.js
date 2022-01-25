@@ -341,10 +341,10 @@ function shareText(score) {
         return '倒计时多了' + ((deviation_time / 1000) - 20).toFixed(2) + "s";
     }
     SubmitResults();
-    if (score <= 49) return '大聪明！';
-    if (score <= 99) return '贝极星都是很厉害的人！';
-    if (score <= 149) return '第一次勇敢牛牛！';
-    if (score <= 199) return '勇敢牛牛，不怕困难！';
+    if (score <= 39) return '大聪明！';
+    if (score <= 59) return '贝极星都是很厉害的人！';
+    if (score <= 89) return '第一次勇敢牛牛！';
+    if (score <= 119) return '勇敢牛牛，不怕困难！';
     return '终极勇敢牛牛！';
 }
 
